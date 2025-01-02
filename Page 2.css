@@ -1,0 +1,43 @@
+body
+{
+    background-color: white;
+}
+#iconedit
+{
+    width: 250px;
+    height: auto;
+}
+.grid-item {
+    background-color: #333
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.grid-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.grid-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.grid-item h3 {
+    margin: 0;
+    font-size: 20px;
+    color:white;
+    position: relative;
+    left:5px;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    color: white;
+    position: relative;
+    left: 5px;
+}
+.grid-item
+{
+    background-color:purple;
+}
